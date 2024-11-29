@@ -62,7 +62,7 @@
       });
 
       function initWebSocket() {
-          ws = new WebSocket('ws://localhost:8765');
+          ws = new WebSocket('ws://54.198.77.150:8765');
 
           ws.addEventListener('open', () => console.log('WebSocket connection established.'));
           ws.addEventListener('message', handleWebSocketMessage);
