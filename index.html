@@ -62,7 +62,7 @@
       });
 
       function initWebSocket() {
-          ws = new WebSocket('ws://54.198.77.150:8765');
+          ws = new WebSocket('wss://pipebank-81dacab03ee4.herokuapp.com/');
 
           ws.addEventListener('open', () => console.log('WebSocket connection established.'));
           ws.addEventListener('message', handleWebSocketMessage);
